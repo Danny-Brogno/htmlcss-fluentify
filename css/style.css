@@ -155,12 +155,13 @@ top: 60px;
 .row.middle {
   display: inline-block;
   background-color: green;
-  margin-left: 3%;
+  margin-left: 5%;
   float: left;
 }
 
 .row.right {
   display: inline-block;
   background-color: yellow;
-  margin-left: 3%;
+  margin-left: 5%;
+  float: left;
 }
