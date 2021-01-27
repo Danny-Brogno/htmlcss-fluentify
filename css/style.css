@@ -137,8 +137,30 @@ top: 60px;
 /* 3 pictures in line */
 
 .box {
-  display: inline;
-  width: 5000px;
-  height: 5000px;
+  width: 100%;
+  height: 600px;
   background-color: red;
+}
+
+.row {
+  width: 30%;
+  height: 600px;
+}
+
+.row.left {
+  background-color: blue;
+  float: left;
+}
+
+.row.middle {
+  display: inline-block;
+  background-color: green;
+  margin-left: 3%;
+  float: left;
+}
+
+.row.right {
+  display: inline-block;
+  background-color: yellow;
+  margin-left: 3%;
 }
